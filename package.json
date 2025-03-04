@@ -1,0 +1,15 @@
+{
+    "name": "ffmpeg-server",
+    "version": "1.0.0",
+    "description": "FFmpeg API for M3U8 to MP4 conversion",
+    "main": "server.js",
+    "dependencies": {
+      "express": "^4.17.1",
+      "fluent-ffmpeg": "^2.1.2",
+      "axios": "^0.27.2"
+    },
+    "scripts": {
+      "start": "node server.js"
+    }
+  }
+  
